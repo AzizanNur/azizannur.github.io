@@ -216,7 +216,7 @@ section {
 /* BUTTONS */
 
 .btn-container {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   gap: 1rem;
 }
@@ -232,6 +232,8 @@ section {
 .btn-color-1,
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
+  height: 70px;
+  margin: 0 10px 0 0;
 }
 
 .btn-color-1:hover,
@@ -268,7 +270,7 @@ section {
 }
 
 .about-containers {
-  gap: 2rem;
+  gap: 1rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
@@ -429,4 +431,12 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.hero{
+  padding: 18px 0 0 0;
+}
+
+.margin_top {
+  margin: 10px 0 20px 0;
 }

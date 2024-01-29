@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0055)https://tangerine-hummingbird-1479b6.netlify.app/#about -->
+<!-- saved from url=(0055)#about -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,13 +25,13 @@
 }</style></head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Azizan</div>
+      <div class="logo">Azizan Nur Rohman</div>
       <div>
         <ul class="nav-links">
-          <li><a href="https://tangerine-hummingbird-1479b6.netlify.app/#about">About</a></li>
-          <li><a href="https://tangerine-hummingbird-1479b6.netlify.app/#experience">Experience</a></li>
-          <li><a href="https://tangerine-hummingbird-1479b6.netlify.app/#projects">Projects</a></li>
-          <li><a href="https://tangerine-hummingbird-1479b6.netlify.app/#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -44,10 +44,10 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="https://tangerine-hummingbird-1479b6.netlify.app/#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="https://tangerine-hummingbird-1479b6.netlify.app/#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="https://tangerine-hummingbird-1479b6.netlify.app/#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="https://tangerine-hummingbird-1479b6.netlify.app/#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
@@ -55,15 +55,15 @@
       <div class="section__pic-container">
         <img src="./My Portfolio_files/profile-pic.png" alt="Azizan profile picture">
       </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Azizan</h1>
-        <p class="section__text__p2">Frontend Developer</p>
-        <div class="btn-container">
-          <button class="btn btn-color-2" onclick="window.open(&#39;./assets/resume-example.pdf&#39;)">
+      <div class="hero section__text">
+        <p class="section__text__p1 margin_top">Hello, I'm</p>
+        <h1 class="title margin_top">Azizan Nur Rohman</h1>
+        <p class="section__text__p2 margin_top">Software Engineer</p>
+        <div class="btn-container margin_top">
+          <button class="btn btn-color-2" onclick="window.open('/assets/resume-example.pdf')">
             Download CV
           </button>
-          <button class="btn btn-color-1" onclick="location.href=&#39;./#contact&#39;">
+          <button class="btn btn-color-1 margin_top" onclick="location.href='#contact'">
             Contact Info
           </button>
         </div>
@@ -265,19 +265,26 @@
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="https://tangerine-hummingbird-1479b6.netlify.app/#about">About</a></li>
-            <li><a href="https://tangerine-hummingbird-1479b6.netlify.app/#experience">Experience</a></li>
-            <li><a href="https://tangerine-hummingbird-1479b6.netlify.app/#projects">Projects</a></li>
-            <li><a href="https://tangerine-hummingbird-1479b6.netlify.app/#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright © 2023 Azizan. All Rights Reserved.</p>
+      <p>Copyright © <span id="year"></span> Azizan. All Rights Reserved.</p>
     </footer>
     <script src="./My Portfolio_files/script.js.download"></script>
+    <script>
+      // Mendapatkan tahun saat ini
+      const currentYear = new Date().getFullYear();
+  
+      // Menempatkan tahun saat ini ke dalam elemen dengan ID 'year'
+      document.getElementById('year').textContent = currentYear;
+  </script>
   
 
-<div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb"><section id="shadow-host-companion"><template shadowrootmode="open"><div id="inner-shadow-companion"><div class="css-0" id="tooltip-mount-layer-companion"></div><style data-emotion="companion-global"></style><style data-emotion="companion" data-s=""></style><style>
+<style>
             
     #inner-shadow-companion {
       font-size: 100%;
