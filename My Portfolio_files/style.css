@@ -233,7 +233,7 @@ section {
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
   height: 70px;
-  margin: 0 10px 0 0;
+  margin: 5px 10px 0 0;
 }
 
 .btn-color-1:hover,
