@@ -108,7 +108,7 @@ a:hover {
   display: block;
   padding: 10px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.0rem;
   color: black;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
@@ -438,9 +438,13 @@ footer p {
 }
 
 .margin_top {
-  margin: 10px 0 20px 0;
+  margin: 10px 0 5px 0;
 }
 
 #shadow-host-companion{
   height: 0px;
+}
+
+#profile{
+  margin-bottom: 445px;
 }
